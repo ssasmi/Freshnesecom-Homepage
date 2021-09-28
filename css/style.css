@@ -698,9 +698,9 @@ textarea.input {
 ._btn-small:before {
   content: "";
   background: #6a983c;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.2)));
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
-  background: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(0, rgba(0, 0, 0, 0.1)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
   width: 100%;
   height: 100%;
   top: 0;
@@ -1256,9 +1256,9 @@ li.breadcrumb__item + li.breadcrumb__item::before {
 .footer-category__btn:before {
   content: "";
   background: #6a983c;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.2)));
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
-  background: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(0, rgba(0, 0, 0, 0.1)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
   width: 100%;
   height: 100%;
   top: 0;
@@ -1335,9 +1335,9 @@ li.breadcrumb__item + li.breadcrumb__item::before {
 .filter-mini__btn:before {
   content: "";
   background: #6a983c;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.2)));
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
-  background: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(0, rgba(0, 0, 0, 0.1)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
   width: 100%;
   height: 100%;
   top: 0;
@@ -3775,9 +3775,9 @@ li.breadcrumb__item + li.breadcrumb__item::before {
 .btn-aside__apply:before {
   content: "";
   background: #6a983c;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.2)));
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
-  background: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(0, rgba(0, 0, 0, 0.1)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
   width: 100%;
   height: 100%;
   border-radius: 12px;
@@ -4560,6 +4560,10 @@ button {
 
 .head-modal__btn span:first-child {
   margin: 0px 20px 0px 0px;
+  position: relative;
+  background-color: transparent;
+  top: 0;
+  left: 0;
 }
 
 .head-modal__btn span:nth-child(2) {
@@ -4928,9 +4932,9 @@ button {
 .footer-modal__link:before {
   content: "";
   background: #6a983c;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.2)));
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
-  background: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(0, rgba(0, 0, 0, 0.1)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 0 0);
   width: 100%;
   height: 100%;
   top: 0;
@@ -5874,7 +5878,7 @@ _active - открытый аккордеон
   }
 
   .footer-modal__btn {
-    psz: 12px;
+    font-size: 12px;
   }
 
   .footer-modal__link {
